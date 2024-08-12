@@ -1,4 +1,4 @@
-fromfrom web3 import Web3
+from web3 import Web3
 
 # Avalanche veya Ethereum ağına bağlanın
 web3 = Web3(Web3.HTTPProvider("https://api.avax.network/ext/bc/C/rpc"))  # Avalanche C-Chain

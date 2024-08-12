@@ -1,10 +1,14 @@
-from web3 import Web3
+fromfrom web3 import Web3
 
-# Avalanche C-Chain'e bağlanın
-web3 = Web3(Web3.HTTPProvider("https://api.avax.network/ext/bc/C/rpc"))
+# Avalanche veya Ethereum ağına bağlanın
+web3 = Web3(Web3.HTTPProvider("https://api.avax.network/ext/bc/C/rpc"))  # Avalanche C-Chain
+# veya
+# web3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"))  # Ethereum Mainnet
 
-# Kullanılacak akıllı sözleşmenin adresi ve ABI'si
-contract_address = "0x63682bdc5f875e9bf69e201550658492c9763f89"
+# Sözleşme adresini checksum formatına çevirin
+contract_address = Web3.toChecksumAddress("0x63682bdc5f875e9bf69e201550658492c9763f89")
+
+# Sözleşme ABI'si
 contract_abi = [
     {
         "constant": False,
